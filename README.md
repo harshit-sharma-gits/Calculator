@@ -1,10 +1,10 @@
 # Calculator Web App
 
-### A Simple Web Calculator App
-### __Challenge 1__ given by <a href="https://developerdays.tech/">Developer Days</a> 5 week long Bootcamp + Hackathon
+A Simple Web Calculator App
+__Challenge 1__ given by <a href="https://developerdays.tech/">Developer Days</a> 5 week long Bootcamp + Hackathon
 
-### Tech Used : _HTML, CSS, JAVASCRIPT_
-### Authors : _Harshit Sharma, Ayush Som_
+Tech Used : _HTML, CSS, JAVASCRIPT_
+Authors : _Harshit Sharma, Ayush Som_
 <br>
 
 # Deployment 
