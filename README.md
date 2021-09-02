@@ -12,5 +12,5 @@
 <br>
 
 # Screenshot
-<div align="center"><img src="res/ss1.png"></div>
+<div align="center"><img src="res/ss1.PNG"></div>
 <br>
