@@ -14,29 +14,62 @@ header {
     margin-bottom: 2rem;
 }
 
-main {
-    width: 600px;
-    height: 400px;
+h1 {
+    font-size: 20px;
+    color: rgb(43, 43, 43);
+}
+
+.container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.container input {
+    width: 335px;
+    height: 70px;
+    font-size: 25px;
+}
+
+.container .calcButtonGrid {
+    margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
-    padding: 50px;
-    padding-left: 90px;
+    width: 335px;
+    height: 325px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+    grid-gap: 5px;
+}
+
+.container .calcButtonGrid .clacButton {
+    width: 80px;
+    height: 50px;
+    background-color: rgb(243, 243, 243);
+    color: rgb(31, 31, 31);
     text-align: center;
-    border-radius: 25px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+    box-shadow: rgb(31, 31, 31) 0px 1px 4px, rgb(87, 87, 87) 0px 0px 0px 2px;
+    cursor:pointer;
 }
 
-#number1 {
-    width: 300px;
-    height: 30px;
+.container .calcButtonGrid .clacButton button {
+    width: 80px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 25px;
+    cursor: pointer;
 }
 
-#operator {
-    width: 280px;
-    height: 30px;
+.container .calcButtonGrid .clacButton:hover {
+    background-color: rgb(31, 31, 31);
 }
 
-#number2 {
-    width: 300px;
-    height: 30px;
+.container .calcButtonGrid .clacButton button:hover {
+    background-color: rgb(31, 31, 31);
+    color: rgb(243, 243, 243);
 }
